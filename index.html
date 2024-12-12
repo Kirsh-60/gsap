@@ -1,42 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GSAP Demo</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <style>
-      .box {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        margin: 50px auto;
-      }
-    </style>
+    <title>Vite + Vue</title>
+    <script type="module" crossorigin src="/assets/index-apumh8wN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BWIGN4j8.css">
   </head>
   <body>
-    <div class="box"></div>
-
-    <script>
-      // 选择元素并添加动画
-      //   gsap.to('.box', { rotation: 720, x: 0, duration: 3 })
-      //   gsap.from(".box", { opacity: 0, duration: 2 });
-      //   gsap.fromTo(
-      //     '.box',
-      //     { x: 0, opacity: 0 },
-      //     { x: 200, opacity: 1, duration: 2 }
-      //   )
-      //   const tl = gsap.timeline()
-      //   tl.to('.box', { x: 100, duration: 1 })
-      //     .to('.box', { y: 100, duration: 1 })
-      //     .to('.box', { rotation: 360, duration: 1 })
-      gsap.to('.box', {
-        x: 300,
-        duration: 2,
-        onStart: () => console.log('动画开始'),
-        onUpdate: () => console.log('动画进行中'),
-        onComplete: () => console.log('动画完成'),
-      })
-    </script>
+    <div id="app"></div>
   </body>
 </html>
