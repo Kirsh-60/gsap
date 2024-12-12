@@ -5,4 +5,5 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   assetsPublicPath: './', // 替换为你的仓库名称
+  publicPath: './',
 })
