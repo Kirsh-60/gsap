@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
-  { path: '/', component: () => import('../views/gsap/index.vue') },
+  { path: '/', component: () => import('../views/gsap/gsap.vue') },
   { path: '/tween', component: () => import('../views/gsap/tween.vue') },
 ]
 
